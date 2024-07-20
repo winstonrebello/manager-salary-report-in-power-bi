@@ -30,3 +30,6 @@
 10. Converting time format :- data['date'] = pd.to_datetime(data['Timestamp'], format='%B %d, %Y')
 11. Using lambda function to find manager in string :- data.loc[:, 'M_or_other'] = data['Job title'].apply(lambda x: 'Manager' if 'manager' in x.lower() else 'Other')
 
+## **Reference**
+
+Dataset fetched from https://oscarbaruffa.com/messy/
